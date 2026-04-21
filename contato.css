@@ -1,0 +1,41 @@
+/* Configuração básica da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #0044cc;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+textarea {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #0044cc;
+}
+
+button {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002288;
+}
+
+button[type="reset"] {
+    background-color: #cccccc;
+    color: black;
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+}
